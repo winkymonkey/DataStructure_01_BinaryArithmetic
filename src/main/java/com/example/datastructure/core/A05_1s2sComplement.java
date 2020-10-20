@@ -1,5 +1,6 @@
 package com.example.datastructure.core;
 
+
 public class A05_1s2sComplement {
 	public static void main(String[] args) {
 		int a = 5;		//00000101

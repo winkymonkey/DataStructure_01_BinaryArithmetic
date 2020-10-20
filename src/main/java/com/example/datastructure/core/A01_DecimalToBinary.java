@@ -1,5 +1,6 @@
 package com.example.datastructure.core;
 
+
 public class A01_DecimalToBinary {
 	/*
 	 * --------------------------

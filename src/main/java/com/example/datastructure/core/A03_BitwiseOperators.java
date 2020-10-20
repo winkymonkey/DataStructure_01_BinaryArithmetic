@@ -1,5 +1,6 @@
 package com.example.datastructure.core;
 
+
 public class A03_BitwiseOperators {
 	/*
 	 * '&' - BITWISE AND -- when both bits are 1, o/p is 1
