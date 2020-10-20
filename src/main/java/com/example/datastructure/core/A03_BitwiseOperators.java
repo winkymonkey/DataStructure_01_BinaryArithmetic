@@ -4,7 +4,7 @@ package com.example.datastructure.core;
 public class A03_BitwiseOperators {
 	/*
 	 * '&' - BITWISE AND -- when both bits are 1, o/p is 1
-	 * '|' - BITWOSE OR --- when any of the bits are 1, o/p is 1
+	 * '|' - BITWISE OR --- when any of the bits are 1, o/p is 1
 	 * 
 	 * '^' - BITWISE XOR -- same bits--o/p is 0
 	 * 						different bits--o/p is 1
