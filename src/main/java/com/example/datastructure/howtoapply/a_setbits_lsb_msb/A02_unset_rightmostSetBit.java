@@ -11,7 +11,7 @@ package com.example.datastructure.howtoapply.a_setbits_lsb_msb;
  */
 public class A02_unset_rightmostSetBit {
 	/*
-	 * return (n & (n-1))
+	 * return (n & ~(n-1))
 	 * 
 	 */
 }
