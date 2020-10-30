@@ -21,7 +21,7 @@ public class A05_count_setBits {
 	 * 
 	 * n = 9;
 	 * count = 0;
-	 * while(n > 0) {		//in each traversal we unset the right-most 1
+	 * while (n > 0) {		//in each traversal we unset the right-most 1
 	 * 	 n = n & (n-1);
 	 * 	 count++;
 	 * }

@@ -17,7 +17,7 @@ public class A02_representNumberAsPowerOf2 {
 	 * 
 	 * n = 1213;
 	 * count = 0;
-	 * while(n > 0) {
+	 * while (n > 0) {
 	 * 	 if((n & 1) == 1)
 	 * 		System.out.println(count);
 	 * 	 

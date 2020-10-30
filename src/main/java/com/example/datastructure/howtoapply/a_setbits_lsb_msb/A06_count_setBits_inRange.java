@@ -41,9 +41,9 @@ public class A06_count_setBits_inRange {
 	 * 
 	 * //now count set-bits in 'SPECIAL'
 	 * count = 0;
-	 * while(SPECIAL > 0) {
-	 * 	 SPECIAL = SPECIAL & (SPECIAL-1);
-	 * 	 count++;
+	 * while (SPECIAL > 0) {
+	 * 	  SPECIAL = SPECIAL & (SPECIAL-1);
+	 * 	  count++;
 	 * }
 	 *
 	 */

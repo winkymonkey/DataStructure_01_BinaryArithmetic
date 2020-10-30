@@ -15,9 +15,9 @@ public class A10_find_MSB {
 	 * ---RIGHT SHIFT---(it will give you the index of MSB)
 	 * -----------------
 	 * position = 0;
-	 * while(n > 1) {
-	 * 	 n = (n >> 1);		//right-shift until the number becomes 0... And track counter
-	 * 	 position++;
+	 * while (n > 1) {
+	 * 	  n = (n >> 1);		//right-shift until the number becomes 0... And track counter
+	 * 	  position++;
 	 * }
 	 * //print (position+1)
 	 * 

@@ -32,7 +32,7 @@ public class A01_check_ifPowerOf2 {
 	 * 
 	 * n = 9;
 	 * count = 0;
-	 * while(n > 0) {
+	 * while (n > 0) {
 	 * 	 n = n & (n-1);		//in each traversal we unset the right-most 1
 	 * 	 count++;
 	 * 	 if(count>1)
@@ -61,7 +61,7 @@ public class A01_check_ifPowerOf2 {
 	 * -------------------
 	 * ---FACTORIZATION---
 	 * -------------------
-	 * while(n != 1) {
+	 * while (n != 1) {
 	 * 	 if(n%2 != 0)			//if at any step n becomes odd, then return
 	 * 		return false;
 	 * 	 n = n/2;

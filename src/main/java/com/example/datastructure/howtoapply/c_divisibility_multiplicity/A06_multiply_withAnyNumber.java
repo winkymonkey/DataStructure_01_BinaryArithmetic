@@ -27,7 +27,7 @@ public class A06_multiply_withAnyNumber {
 	 * 
 	 * answer = 0;
 	 * count = 0;
-	 * while(m > 0) {
+	 * while (m > 0) {
 	 * 	 if(m%2 == 1)
 	 * 		answer = answer + (n << count);
 	 * 	

@@ -12,7 +12,7 @@ public class A04_BinaryAdd_BinarySubtract {
 	
 	private static int addition(int a, int b) {
 		int carry;
-		while(b != 0) {
+		while (b != 0) {
 			carry = (a & b) << 1;	//it holds the carry
 			a = a ^ b;				//it does the sum without considering the carry
 			b = carry;

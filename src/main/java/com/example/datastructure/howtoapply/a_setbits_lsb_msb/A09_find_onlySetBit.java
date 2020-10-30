@@ -20,7 +20,7 @@ public class A09_find_onlySetBit {
 	 * As the number contain only one set bit, after certain right shift n will become 0.
 	 * 
 	 * count = 0;
-	 * while(n > 0) {
+	 * while (n > 0) {
 	 * 	 n = n >> 1;
 	 * 	 ++count;
 	 * }

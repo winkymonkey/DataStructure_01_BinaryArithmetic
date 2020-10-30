@@ -16,7 +16,7 @@ public class A12_findElementWhichOccursOnce_whereAllOtherOccursKtimes_2 {
 	
 	private static int findUnique(int A[], int n, int k) {
 		int count[] = new int[32];
-		for(int i=0; i<32; i++) {
+		for (int i=0; i<32; i++) {
 			count[i] = 0;
 		}
 		
@@ -26,7 +26,7 @@ public class A12_findElementWhichOccursOnce_whereAllOtherOccursKtimes_2 {
 	                count[i] += 1;
 		
 		int res = 0;
-	    for(int i=0; i<32; i++)
+	    for (int i=0; i<32; i++)
 	        res = res + (count[i] % k) * (1 << i);
 	    return res;
 	}

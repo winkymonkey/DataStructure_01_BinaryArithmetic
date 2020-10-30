@@ -11,11 +11,11 @@ package com.example.datastructure.howtoapply.b_basiccheck;
  */
 public class A04_check_ifAllBitsAreSet {
 	/*
-	 * while(n > 0) {
-	 * 	 if(n & 1 == 0)		//if the rightmost bit of n is 0, then the result will be 0 
-	 * 		return "NO"
-	 * 	 
-	 * 	 n = n >> 1;
+	 * while (n > 0) {
+	 * 	  if(n & 1 == 0)		//if the rightmost bit of n is 0, then the result will be 0 
+	 *       return "NO"
+	 *    
+	 *    n = n >> 1;
 	 * }
 	 * return "YES"
 	 * 

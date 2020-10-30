@@ -15,7 +15,7 @@ public class A04_toggleAllBits_afterRightmost0_subtract1 {
 	 * 
 	 * N = 100					//given number
 	 * m = 1
-	 * while((N & m) == 0) {	//flip all the unset-bits until we find a 1
+	 * while ((N & m) == 0) {	//flip all the unset-bits until we find a 1
 	 * 	 N = N ^ m;
 	 * 	 m = m << 1;
 	 * }

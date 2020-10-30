@@ -13,8 +13,8 @@ public class A03_find_rigthmostDifferentBit {
 	/*
 	 * x = m^n				//it will turn all same bits as 0, and all different bit as 1
 	 * 
-	 * while(x > 0) {
-	 * 	 if(x & 1 == 1)		//if rightmost bit is 1
+	 * while (x > 0) {
+	 * 	 if (x & 1 == 1)		//if rightmost bit is 1
 	 * 		break;
 	 * 	 else
 	 * 		count++;

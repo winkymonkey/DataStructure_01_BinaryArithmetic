@@ -15,7 +15,7 @@ public class A03_toggleAllBits_afterRightmost1_add1 {
 	 * 
 	 * N = 100					//given number
 	 * m = 1
-	 * while((N & m) == 1) {	//flip all the set-bits until we find a 0
+	 * while ((N & m) == 1) {	//flip all the set-bits until we find a 0
 	 * 	 N = N ^ m;
 	 * 	 m = m << 1;
 	 * }

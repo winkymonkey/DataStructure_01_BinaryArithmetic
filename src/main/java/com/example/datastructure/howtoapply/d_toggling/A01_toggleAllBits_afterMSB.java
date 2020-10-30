@@ -31,7 +31,7 @@ public class A01_toggleAllBits_afterMSB {
 	 * ---ALGORITHM---
 	 * ---------------
 	 * X = 1;
-	 * while(X <= n) {
+	 * while (X <= n) {
 	 * 	 n = n^X;
 	 * 	 X = X<<1;
 	 * }

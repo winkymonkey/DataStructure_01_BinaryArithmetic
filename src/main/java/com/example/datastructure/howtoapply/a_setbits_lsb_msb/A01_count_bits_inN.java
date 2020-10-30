@@ -27,9 +27,9 @@ public class A01_count_bits_inN {
 	 * -----------------
 	 * n = 183;
 	 * count = 0;
-	 * while(n > 0) {
-	 * 	 count++
-	 *   n = n >> 1;
+	 * while (n > 0) {
+	 *    count++
+	 *    n = n >> 1;
 	 * }
 	 * 
 	 */

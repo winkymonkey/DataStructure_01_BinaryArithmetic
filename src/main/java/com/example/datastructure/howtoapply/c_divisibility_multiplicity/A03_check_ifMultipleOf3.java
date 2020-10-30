@@ -25,7 +25,7 @@ public class A03_check_ifMultipleOf3 {
 	 * odd_count = 0;
 	 * even_count = 0;
 	 * 
-	 * while(n!=0) {
+	 * while (n!=0) {
 	 * 	 if((n & 1) != 0)
 	 * 		odd_count++;		//If odd bit is set then increment odd counter
 	 * 	 n = n>>1;
