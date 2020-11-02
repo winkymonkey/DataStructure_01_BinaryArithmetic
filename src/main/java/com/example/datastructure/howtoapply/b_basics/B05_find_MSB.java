@@ -9,7 +9,8 @@ package com.example.datastructure.howtoapply.b_basics;
  * 
  * *****************************************************************************
  */
-public class A14_find_MSB {
+
+public class B05_find_MSB {
 	/*
 	 * -----------------
 	 * ---RIGHT SHIFT---(it will give you the index of MSB)

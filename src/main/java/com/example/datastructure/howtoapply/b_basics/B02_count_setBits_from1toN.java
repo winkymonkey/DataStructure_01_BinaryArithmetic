@@ -12,7 +12,8 @@ package com.example.datastructure.howtoapply.b_basics;
  * 
  * *****************************************************************************
  */
-public class A12_count_setBits_from1toN {
+
+public class B02_count_setBits_from1toN {
 	/*
 	 * 
 	 */
