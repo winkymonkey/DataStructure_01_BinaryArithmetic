@@ -13,7 +13,7 @@ package com.example.datastructure.howtoapply.a_setbits_lsb_msb;
  * *****************************************************************************
  */
 
-public class A01_count_bits_inN {
+public class A01_totalBitsInDecimal {
 	/*
 	 * ---------
 	 * ---LOG---
