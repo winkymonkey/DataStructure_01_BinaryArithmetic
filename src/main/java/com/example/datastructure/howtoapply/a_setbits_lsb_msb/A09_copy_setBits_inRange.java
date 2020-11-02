@@ -20,7 +20,7 @@ package com.example.datastructure.howtoapply.a_setbits_lsb_msb;
  * 
  * *****************************************************************************
  */
-public class A08_copy_setBits_inRange {
+public class A09_copy_setBits_inRange {
 	/*
 	 * 
 	 */

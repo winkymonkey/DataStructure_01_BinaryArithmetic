@@ -9,7 +9,7 @@ package com.example.datastructure.howtoapply.a_setbits_lsb_msb;
  * 
  * *****************************************************************************
  */
-public class A10_find_MSB {
+public class A11_find_MSB {
 	/*
 	 * -----------------
 	 * ---RIGHT SHIFT---(it will give you the index of MSB)

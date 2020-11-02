@@ -12,7 +12,7 @@ package com.example.datastructure.howtoapply.a_setbits_lsb_msb;
  * 
  * *****************************************************************************
  */
-public class A09_find_onlySetBit {
+public class A10_find_onlySetBit {
 	/*
 	 * -----------------
 	 * ---RIGHT SHIFT---

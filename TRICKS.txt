@@ -1,31 +1,31 @@
-Toggle a bit ------------------------------------- (n^1)		//1^0=1 and 1^1=0
-Toggle all bits after rightmost 1 (inclusive) ---- (n-1)
-Toggle all bits after rightmost 0 (inclusive) ---- (n+1)
-unset rightmost set bit -------------------------- (n & (n-1))
+Number of bits in Decimal Number --------------------- Floor(Logn)+1
+Unset rightmost set bit ------------------------------ (n & (n-1))
+Toggle a bit ----------------------------------------- (n^1)			//1^0=1 and 1^1=0
+Toggle all bits after rightmost 1 (inclusive) -------- (n-1)			//1000011100 --> 1000011011
+Toggle all bits after rightmost 0 (inclusive) -------- (n+1)			//1000011011 --> 1000011100
 
+***************************************************************************************************************
+Even number	--------------------------- (n & 1)==0			//if rightmost bit is 0
+Odd number ---------------------------- (n & 1)==1			//if rightmost bit is 1
 
-Even number	-------------------------------------- (n & 1)==0		//if rightmost bit is 0
-Odd number --------------------------------------- (n & 1)==1		//if rightmost bit is 1
+***************************************************************************************************************
+Multiply by 2 ------------------------- (n << 1)
+Divide by 2 --------------------------- (n >> 1)
 
-
-Multiply by 2 ------------------------------------ (n << 1)
-Divide by 2 -------------------------------------- (n >> 1)
-
-
-Positive Number ---------------------------------- (n >> 31)==(0)   and  (-n >> 31)==(-1)
-Negative Number ---------------------------------- (n >> 31)==(-1)  and  (-n >> 31)==(0)
-Zero Number -------------------------------------- (n >> 31)==(0)   and  (-n >> 31)==(0)
-
-
-
-
+***************************************************************************************************************
+Positive Number ----------------------- (n >> 31)==(0)  and  (-n >> 31)==(-1)
+Negative Number ----------------------- (n >> 31)==(-1) and  (-n >> 31)==(0)
+Zero Number --------------------------- (n >> 31)==(0)  and  (-n >> 31)==(0)
 
 
 
 
-TODO
+***************************************************************************************************************
+	TODO
 https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
 https://www.geeksforgeeks.org/a-boolean-array-puzzle/
 https://www.geeksforgeeks.org/program-to-count-number-of-set-bits-in-an-big-array/
 https://www.geeksforgeeks.org/xor-encryption-shifting-plaintext/
 Minimum digits to remove to make a number Perfect Square
+
+https://www.exploringbinary.com/number-of-bits-in-a-decimal-integer/

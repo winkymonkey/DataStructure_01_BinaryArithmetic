@@ -2,6 +2,7 @@ package com.example.datastructure.core;
 
 
 public class A05_1s2sComplement {
+	
 	public static void main(String[] args) {
 		int a = 5;		//00000101
 		find1sComplement(a);
@@ -20,4 +21,5 @@ public class A05_1s2sComplement {
 	private static void find2sComplement(int a) {
 		
 	}
+	
 }

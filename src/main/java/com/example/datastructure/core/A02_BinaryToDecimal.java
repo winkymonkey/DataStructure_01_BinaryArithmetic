@@ -10,10 +10,10 @@ public class A02_BinaryToDecimal {
 	 * decimal = 0;
 	 * p = 0;
 	 * while (n!=0) {
-	 * 	  last_digit = n%10;
-	 * 	  decimal = decimal + (last_digit * Math.pow(2, p));
-	 * 	  n = n/10;
-	 * 	  p++;
+	 * 	  last_digit = n%10
+	 * 	  decimal += (last_digit * 2^p)		//Math.pow(2,p)
+	 * 	  n = n/10
+	 * 	  p++
 	 * }
 	 * 
 	 */

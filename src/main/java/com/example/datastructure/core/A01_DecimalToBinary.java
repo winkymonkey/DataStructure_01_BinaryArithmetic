@@ -6,12 +6,12 @@ public class A01_DecimalToBinary {
 	 * --------------------------
 	 * ---ARITHMETIC OPERATION---
 	 * --------------------------
-	 * bin[];
+	 * bin[];			--> number of bits in a decimal number = Floor(logN)+1 == hence it should be the size of array
 	 * i = 0;
 	 * while (n > 0) {
-	 * 	 bin[i] = n%2;
-	 * 	 n = n/2;
-	 * 	 i++;
+	 * 	  bin[i] = n%2;
+	 * 	  n = n/2;
+	 * 	  i++;
 	 * }
 	 * 
 	 * //print bin[] in reverse order
@@ -24,9 +24,9 @@ public class A01_DecimalToBinary {
 	 * --------------------------------------
 	 * findBinary(n) {
 	 * 	  if (n > 1)
-	 *       findBinary(n/2);
+	 *       findBinary(n/2)
 	 * 	  
-	 * 	  //print n%2;
+	 * 	  //print (n%2)
 	 * }
 	 * 
 	 * 
@@ -35,12 +35,9 @@ public class A01_DecimalToBinary {
 	 * -----------------------
 	 * ---BITWISE OPERATION---
 	 * -----------------------
-	 * for (i=31 to 0) {			//as integer is of size 32bits
+	 * for (i=31 to 0) {			//in Java, integer is of 32bits
 	 *    k = n >> i;
-	 * 	  if (k & 1 > 0)
-	 *       //print 1;
-	 * 	  else
-	 *       //print 0;
+	 *    print (k & 1)
 	 * }
 	 * 
 	 */

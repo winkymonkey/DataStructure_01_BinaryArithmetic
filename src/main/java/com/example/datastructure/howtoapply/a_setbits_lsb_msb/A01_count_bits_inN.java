@@ -12,24 +12,25 @@ package com.example.datastructure.howtoapply.a_setbits_lsb_msb;
  * 
  * *****************************************************************************
  */
+
 public class A01_count_bits_inN {
 	/*
 	 * ---------
 	 * ---LOG---
 	 * ---------
 	 * n = 183;
-	 * count = log(n) + 1;
+	 * numOfBits = Floor(log(n)) + 1;
 	 * 
 	 * 
 	 * 
 	 * -----------------
 	 * ---RIGHT SHIFT---
 	 * -----------------
-	 * n = 183;
-	 * count = 0;
+	 * n = 183
+	 * numOfBits = 0
 	 * while (n > 0) {
-	 *    count++
-	 *    n = n >> 1;
+	 *    numOfBits++
+	 *    n = n >> 1
 	 * }
 	 * 
 	 */

@@ -9,8 +9,8 @@ public class A03_BitwiseOperators {
 	 * '^' - BITWISE XOR -- same bits--o/p is 0
 	 * 						different bits--o/p is 1
 	 * 
-	 * '<<' - LEFT SHIFT -- shift every bits at left, add one 0 at end		(MULTIPLY BY 2)
-	 * '>>' - RIGHT SHIFT - shift every bits at right, add one 0 at start	(DIVIDE BY 2)
+	 * '<<' - LEFT SHIFT -- shift every bits at left, add one 0 at right		(MULTIPLY BY 2)
+	 * '>>' - RIGHT SHIFT - shift every bits at right, add one 0 at left		(DIVIDE BY 2)
 	 * 
 	 * '~' - BITWISE NOT -- takes one number and inverts all bits of it
 	 * 

@@ -2,6 +2,7 @@ package com.example.datastructure.core;
 
 
 public class A04_BinaryAdd_BinarySubtract {
+	
 	public static void main(String[] args) {
 		int a = 30;		//11110
 		int b = 5;		//00101
@@ -31,4 +32,5 @@ public class A04_BinaryAdd_BinarySubtract {
 		}
 		return a;
 	}
+	
 }

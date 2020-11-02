@@ -2,18 +2,25 @@ package com.example.datastructure.howtoapply.a_setbits_lsb_msb;
 
 /**
  * *****************************************************************************
- * Count total set bits in all numbers from 1 to n
+ * Get the position of rightmost unset bit
  * *****************************************************************************
- * I/P: 3	//1(01), 2(10), 3(11)
- * O/P: 4	//total 4 set bits
- * 
- * I/P: 6	//1(001), 2(010), 3(011), 4(100), 5(101), 6(110)
- * O/P: 9	//total 9 set bits
+ * Input: 	n = 9	(1001)
+ * Output: 	2
  * 
  * *****************************************************************************
  */
-public class A07_count_setBits_from1toN {
+
+public class A03_find_rightmostUnsetBit {
 	/*
+	 * while (n > 0) {
+	 *   position++;
+	 * 	 if ((n & 1) == 0)
+	 * 		break;
+	 * 	 else
+	 * 		n = n >> 1;
+	 * }
+	 * 
+	 * print position
 	 * 
 	 */
 }

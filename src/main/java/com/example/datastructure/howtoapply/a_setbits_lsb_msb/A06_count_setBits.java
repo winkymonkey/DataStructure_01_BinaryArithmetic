@@ -12,7 +12,7 @@ package com.example.datastructure.howtoapply.a_setbits_lsb_msb;
  * 
  * *****************************************************************************
  */
-public class A05_count_setBits {
+public class A06_count_setBits {
 	/*
 	 * Subtraction of 1 from a number, 
 	 * 		toggles all the bits (from right to left) till the rightmost set bit(inclusive).

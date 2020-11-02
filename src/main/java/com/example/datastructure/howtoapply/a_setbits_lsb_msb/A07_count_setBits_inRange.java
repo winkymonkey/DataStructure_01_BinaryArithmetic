@@ -17,7 +17,7 @@ package com.example.datastructure.howtoapply.a_setbits_lsb_msb;
  * 
  * *****************************************************************************
  */
-public class A06_count_setBits_inRange {
+public class A07_count_setBits_inRange {
 	/*
 	 * ----------------
 	 * ---PHILOSOPHY---
