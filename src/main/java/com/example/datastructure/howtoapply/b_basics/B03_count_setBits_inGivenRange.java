@@ -8,8 +8,8 @@ package com.example.datastructure.howtoapply.b_basics;
  * The problem is to count set bits from the rightmost L'th bit to the rightmost R'th bit.
  * (NOTE: 1 <= L <= R <= bits in N)
  * *****************************************************************************
- * I/P: N=79, L=2, R=5
- * O/P: 3
+ * Input:  N=79, L=2, R=5
+ * Output: 3
  * 
  * 	   79 = 1001111
  * index--> 7654321

@@ -4,8 +4,8 @@ package com.example.datastructure.howtoapply.b_basics;
  * *****************************************************************************
  * Find least significant set bit of a number
  * *****************************************************************************
- * I/P: 10		//1010
- * O/P: 0		//Most significant set-bit is 0
+ * Input:  10		//1010
+ * Output: 0		//Most significant set-bit is 0
  * 
  * *****************************************************************************
  */

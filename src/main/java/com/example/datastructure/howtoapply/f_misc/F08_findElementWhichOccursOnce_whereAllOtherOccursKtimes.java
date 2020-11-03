@@ -4,22 +4,19 @@ package com.example.datastructure.howtoapply.f_misc;
  * *****************************************************************************
  * Unique element in an array where all elements occur k times except one
  * *****************************************************************************
- * I/P: A[] = {6, 2, 5, 2, 2, 6, 6}
- * 		k = 3
- * O/P: 5				//Every element appears 3 times accept 5
+ * Input:  A[] = {6, 2, 5, 2, 2, 6, 6}
+ * 		   k = 3
+ * Output: 5				//Every element appears 3 times accept 5
  * 
- * I/P: A[] = {2, 2, 2, 10, 2}
- * 		k = 4
- * O/P: 10				//Every element appears 4 times accept 10
+ * Input:  A[] = {2, 2, 2, 10, 2}
+ * 		   k = 4
+ * Output: 10				//Every element appears 4 times accept 10
  * 
  * *****************************************************************************
  */
-public class A11_findElementWhichOccursOnce_whereAllOtherOccursKtimes {
+
+public class F08_findElementWhichOccursOnce_whereAllOtherOccursKtimes {
 	/*
-	 * ----------------
-	 * ---PHILOSOPHY---
-	 * ----------------
-	 * Example Array
 	 * A[] = {6, 2, 5, 2, 2, 6, 6}
 	 * 
 	 * Now let's represent each element in 32 bit format
@@ -44,14 +41,6 @@ public class A11_findElementWhichOccursOnce_whereAllOtherOccursKtimes {
 	 * 
 	 * So if we calculate the below, it will give us the unique number
 	 * (0%k)+(0%k)+(0%k)+....+(0%k)+(4%k)+(6%k)+(1%k) = 5
-	 * 
-	 * 
-	 * 
-	 * 
-	 * ---------------
-	 * ---ALGORITHM---
-	 * ---------------
-	 * 
 	 * 
 	 */
 }

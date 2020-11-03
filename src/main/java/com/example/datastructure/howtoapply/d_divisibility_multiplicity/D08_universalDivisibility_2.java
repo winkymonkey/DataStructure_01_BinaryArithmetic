@@ -4,19 +4,19 @@ package com.example.datastructure.howtoapply.d_divisibility_multiplicity;
  * *****************************************************************************
  * Check divisibility in a binary stream
  * *****************************************************************************
- * I/P: 1
- * 		0
- * 		1
- * 		0
- * 		1
- * 		-1
+ * Input: 1
+ * 	      0
+ * 	      1
+ * 	      0
+ * 	  	  1
+ * 	     -1
  * 
- * O/P: Press any key other than 0 and 1 to terminate 
- * 		no
- * 		no
- * 		no
- * 		no
- * 		yes
+ * Output: Press any key other than 0 and 1 to terminate 
+ * 	     no
+ * 	     no
+ * 	     no
+ * 	     no
+ * 	     yes
  * 
  * *****************************************************************************
  */

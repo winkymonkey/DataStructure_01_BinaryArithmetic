@@ -4,8 +4,8 @@ package com.example.datastructure.howtoapply.a_basics;
  * *****************************************************************************
  * Position of rightmost different bit
  * *****************************************************************************
- * Input: 	m = 11 (1011)
- * 			n = 9  (1001)
+ * Input:  m = 11	(1011)
+ * 		   n = 9	(1001)
  * Output: 2
  * 
  * *****************************************************************************
@@ -13,7 +13,7 @@ package com.example.datastructure.howtoapply.a_basics;
 
 public class A06_find_rigthmostDifferentBit {
 	/*
-	 * x = m^n				//XOR will make all same bits as 0, and all different bit as 1
+	 * x = m ^ n				//XOR will make all same bits as 0, and all different bit as 1
 	 * 
 	 * while (x > 0) {
 	 *    position++;

@@ -4,13 +4,13 @@ package com.example.datastructure.howtoapply.a_basics;
  * *****************************************************************************
  * Unset the rightmost set bit
  * *****************************************************************************
- * I/P: 
- * O/P: 
+ * Input:  23	(10111)
+ * Output: 22	(10110)
  * 
  * *****************************************************************************
  */
 
-public class A08_unsetRightmostSetBit {
+public class A08_unsetRightmost1 {
 	/*
 	 * print the value of ---> (n & (n-1))
 	 * 

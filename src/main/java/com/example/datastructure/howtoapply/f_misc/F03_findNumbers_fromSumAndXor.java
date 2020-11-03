@@ -2,19 +2,24 @@ package com.example.datastructure.howtoapply.f_misc;
 
 /**
  * *****************************************************************************
- * Given a set, find XOR of the XOR�s of all subsets.
+ * Find two numbers from their sum and XOR
  * *****************************************************************************
- * I/P: {1, 2, 3}
- * O/P: 0
+ * Input:  SUM = 17
+ * 	       XOR = 13
+ * Output: a = 2
+ * 	       b = 15
+ * 
+ * Input:  SUM = 1639
+ * 	       XOR = 1176
+ * Output: No such numbers exist
  * 
  * *****************************************************************************
  */
-public class A09_findXOR_ofTheXORs_ofAllSubsets {
+
+public class F03_findNumbers_fromSumAndXor {
 	/*
-	 * if (number of elements > 1)
-	 * 		answer is 0
-	 * if (number of elements == 1)
-	 * 		answer is A[0]
+	 * a = (SUM - XOR) / 2
+	 * b = (a + XOR)
 	 * 
 	 */
 }

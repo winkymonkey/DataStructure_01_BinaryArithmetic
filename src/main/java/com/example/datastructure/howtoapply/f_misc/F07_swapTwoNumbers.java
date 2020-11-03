@@ -2,19 +2,15 @@ package com.example.datastructure.howtoapply.f_misc;
 
 /**
  * *****************************************************************************
- * Bits manipulation (Important tactics)
+ * How to swap two numbers without using a temporary variable?
  * *****************************************************************************
  */
-public class A08_computeXORfrom1toN {
+
+public class F07_swapTwoNumbers {
 	/*
-	 * if(n%4 == 0)
-	 * 	 return n;
-	 * if(n%4 == 1)
-	 * 	 return 1;
-	 * if(n%4 == 2)
-	 * 	 return n + 1;
-	 * else
-	 * 	 return 0;
+	 * x = x ^ y;
+	 * y = x ^ y;
+	 * x = x ^ y;
 	 * 
 	 */
 }

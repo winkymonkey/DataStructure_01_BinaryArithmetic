@@ -4,8 +4,8 @@ package com.example.datastructure.howtoapply.b_basics;
  * *****************************************************************************
  * Find most significant set bit of a number
  * *****************************************************************************
- * I/P: 10		//1010
- * O/P: 4		//Most significant set-bit is at 4th position from right
+ * Input:  10		//1010
+ * Output: 4		//Most significant set-bit is at 4th position from right
  * 
  * *****************************************************************************
  */

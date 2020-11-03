@@ -2,21 +2,22 @@ package com.example.datastructure.howtoapply.f_misc;
 
 /**
  * *****************************************************************************
- * Check whether K-th bit is set or not
+ * Check whether K-th bit (from right) is set or not
  * *****************************************************************************
- * I/P: n=5		//101
- * 		k=1		//check whether 1st bit from right is set or not
- * O/P: SET
+ * Input:  n = 75		(1001011)
+ * 		   k = 4
+ * Output: SET
  * 
  * *****************************************************************************
  */
-public class A06_check_KthBitOfNumber {
+
+public class F06_check_KthBitOfNumber {
 	/*
-	 * left-shift 1 by k times
-	 * now do "Bitwise XOR" of it with n
-	 * if result's LSB is 0---print 'SET'
-	 * otherwise---print 'NOT SET'
-	 * 
+	 * temp = 1 << (k-1)		//it gives a number that has only set bit as k-th bit
+	 * if ((n & temp) == 0)
+	 *    print unset
+	 * else
+	 *    print set
 	 * 
 	 */
 }
