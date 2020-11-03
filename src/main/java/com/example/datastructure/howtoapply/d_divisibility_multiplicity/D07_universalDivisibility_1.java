@@ -4,15 +4,9 @@ package com.example.datastructure.howtoapply.d_divisibility_multiplicity;
  * *****************************************************************************
  * Optimization Techniques | Set 1 (Modulus)
  * *****************************************************************************
- * I/P: 
- * O/P: 
- * 
- * I/P: 
- * O/P: 
- * 
- * *****************************************************************************
  */
-public class A07_universalDivisibility_1 {
+
+public class D07_universalDivisibility_1 {
 	/*
 	 * divisible by 2 ---- N%2 ---- N & (2-1)
 	 * divisible by 4 ---- N%4 ---- N & (4-1)

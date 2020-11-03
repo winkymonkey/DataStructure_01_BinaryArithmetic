@@ -22,7 +22,7 @@ package com.example.datastructure.howtoapply.b_basics;
  * *****************************************************************************
  */
 
-public class B03_copy_setBits_inRange {
+public class B05_copy_setBits_inRange {
 	/*
 	 * 
 	 */

@@ -20,7 +20,7 @@ package com.example.datastructure.howtoapply.b_basics;
  * 
  */
 
-public class B01_count_setBits_inGivenRange {
+public class B03_count_setBits_inGivenRange {
 	/*
 	 * If we can produce a special number having all bits set in the given rage of L to R,
 	 * then we can do BITWISE-AND operation between 'Given Number' and 'Special Number'
@@ -35,7 +35,7 @@ public class B01_count_setBits_inGivenRange {
 	 * ---------------
 	 * x = (1 << R) - 1
 	 * y = (1 << (L-1)) -1
-	 * special = x ^ y
+	 * SPECIAL = x ^ y
 	 * 
 	 * while (SPECIAL > 0) {
 	 *    if((SPECIAL & 1) == 1)

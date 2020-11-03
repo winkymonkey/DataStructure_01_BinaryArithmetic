@@ -1,0 +1,19 @@
+package com.example.datastructure.howtoapply.b_basics;
+
+/**
+ * *****************************************************************************
+ * Find most significant set bit of a number
+ * *****************************************************************************
+ * I/P: 10		//1010
+ * O/P: 4		//Most significant set-bit is at 4th position from right
+ * 
+ * *****************************************************************************
+ */
+
+public class B02_find_MSB {
+	/*
+	 * totalBits = (int)(Math.log(n) / Math.log(2)) + 1
+	 * MSB is at (totalBits - 1)th location
+	 * 
+	 */
+}

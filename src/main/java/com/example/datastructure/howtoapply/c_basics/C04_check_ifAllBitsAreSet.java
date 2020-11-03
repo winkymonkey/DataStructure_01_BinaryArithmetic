@@ -1,23 +1,21 @@
-package com.example.datastructure.howtoapply.c_checking;
+package com.example.datastructure.howtoapply.c_basics;
 
 /**
  * *****************************************************************************
  * Check if all bits of a number are set
  * *****************************************************************************
- * I/P: 7		//111
- * O/P: yes
+ * Input:  255	(11111111)
+ * Output: yes
  * 
  * *****************************************************************************
  */
-public class A04_check_ifAllBitsAreSet {
+
+public class C04_check_ifAllBitsAreSet {
 	/*
-	 * while (n > 0) {
-	 * 	  if(n & 1 == 0)		//if the rightmost bit of n is 0, then the result will be 0 
-	 *       return "NO"
-	 *    
-	 *    n = n >> 1;
-	 * }
-	 * return "YES"
+	 * if (n & (n+1)  == 0)			//011111111 & 100000000 = 000000000 
+	 *    print yes
+	 * else
+	 *    print no
 	 * 
 	 */
 }

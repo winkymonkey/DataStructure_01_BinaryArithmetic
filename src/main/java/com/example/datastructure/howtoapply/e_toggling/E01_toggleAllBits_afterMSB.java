@@ -6,19 +6,17 @@ package com.example.datastructure.howtoapply.e_toggling;
  * *****************************************************************************
  * Given a number, toggle all bits of it after most significant bit including MSB.
  * *****************************************************************************
- * I/P: 10		//1010
- * O/P: 5		//0101
+ * Input:  10		//1010
+ * Output: 5		//0101
  * 
- * I/P: 5		//101
- * O/P: 2		//010
+ * Input:  5		//101
+ * Output: 2		//010
  * 
  * *****************************************************************************
  */
-public class A01_toggleAllBits_afterMSB {
+
+public class E01_toggleAllBits_afterMSB {
 	/*
-	 * ----------------
-	 * ---PHILOSOPHY---
-	 * ----------------
 	 * We can toggle a bit by doing XOR of it with 1	(1^0=1 and 1^1=0)
 	 * 
 	 * take X = 1
@@ -28,12 +26,10 @@ public class A01_toggleAllBits_afterMSB {
 	 * 
 	 * 
 	 * ---------------
-	 * ---ALGORITHM---
-	 * ---------------
 	 * X = 1;
 	 * while (X <= n) {
-	 * 	 n = n^X;
-	 * 	 X = X<<1;
+	 * 	  n = n^X;
+	 * 	  X = X<<1;
 	 * }
 	 * 
 	 */

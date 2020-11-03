@@ -30,8 +30,7 @@ public class A01_count_allBitsInANumber {
 	 * ---------
 	 * ---LOG---
 	 * ---------
-	 * n = 183;
-	 * numOfBits = Floor(log(n)) + 1;
+	 * count = (int)(Math.log(n) / Math.log(2)) + 1
 	 * 
 	 */
 }

@@ -20,11 +20,9 @@ package com.example.datastructure.howtoapply.d_divisibility_multiplicity;
  * 
  * *****************************************************************************
  */
-public class A08_universalDivisibility_2 {
+
+public class D08_universalDivisibility_2 {
 	/*
-	 * ----------------
-	 * ---PHILOSOPHY---
-	 * ----------------
 	 * Suppose you have binary number 1
 	 * If 0 is appended --- becomes 10 (2 in decimal) --- 2 times of the previous value
 	 * If 1 is appended --- becomes 11 (3 in decimal) --- 2 times of the previous value+1

@@ -1,8 +1,8 @@
-package com.example.datastructure.howtoapply.c_checking;
+package com.example.datastructure.howtoapply.c_basics;
 
 /**
  * *****************************************************************************
- * Check if one of the numbers is one�s complement of the other
+ * Check if one of the numbers is 1s complement of the other
  * *****************************************************************************
  * I/P: a=10, b=5		//10=1010, 5=0101
  * O/P: yes
@@ -12,10 +12,15 @@ package com.example.datastructure.howtoapply.c_checking;
  * 
  * *****************************************************************************
  */
-public class A05_check_if1sComplementOfEachOther {
+
+public class C05_check_if1sComplementOfEachOther {
 	/*
-	 * x = a^b
-	 * Check whether all bits are set in the binary representation of n
+	 * X = a ^ b					//1010 ^ 0101 = 1111
+	 * 
+	 * if (X & (X+1)  == 0)			//01111 & 10000 = 00000
+	 *    print yes
+	 * else
+	 *    print no
 	 * 
 	 */
 }
