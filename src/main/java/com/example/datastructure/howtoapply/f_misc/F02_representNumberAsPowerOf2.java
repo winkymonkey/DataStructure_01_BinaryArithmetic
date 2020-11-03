@@ -15,7 +15,7 @@ public class F02_representNumberAsPowerOf2 {
 	 * We have to print the positions where the bit is set
 	 * 
 	 * while (n > 0) {
-	 * 	  if(n & 1 == 1)
+	 * 	  if (n & 1 == 1)
 	 * 	     System.out.println(count);
 	 * 	  
 	 * 	  count++;

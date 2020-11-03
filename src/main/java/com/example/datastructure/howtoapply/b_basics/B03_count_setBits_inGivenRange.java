@@ -38,7 +38,7 @@ public class B03_count_setBits_inGivenRange {
 	 * SPECIAL = x ^ y
 	 * 
 	 * while (SPECIAL > 0) {
-	 *    if((SPECIAL & 1) == 1)
+	 *    if ((SPECIAL & 1) == 1)
 	 *       count++;
 	 * }
 	 * 
